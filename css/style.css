@@ -70,6 +70,7 @@ html, body {
     border-radius: 50%;
     transition: all .5s;
 }
+
 .whatsapp img:hover {
 
     box-shadow: 0 0 0 12px rgba(46, 151, 102, 0.12);
@@ -363,3 +364,67 @@ html, body {
 .why__we-content {
     padding: 23px 13px 45px 31px;
 }
+
+/* ------------------------------- */
+.transport {}
+
+.transport__inner {}
+
+.transport__title {
+    margin-top: 53px;
+}
+
+.transport__text {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 135%;
+    text-align: center;
+    color: #2AA7FF;
+}
+
+.transport__img {
+    position: relative;
+    margin-top: 50px;
+    display: flex;
+    align-items: end;
+    
+}
+.transport__img .image1 {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.transport__img .image2 {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    z-index: 2;
+}
+
+.transport__img .image3 {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    z-index: 3;
+}
+
+.image1 {
+}
+
+.image2 {
+    top: 0;
+    left: 10px;
+
+}
+.image3 {
+}
+
+
+.transport__bigbus {}
+
+.transport__secondbus {}
+
+.transport__lastbus {}
+
+.transport__class {}
