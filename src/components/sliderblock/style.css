@@ -1,0 +1,35 @@
+.sliderblock {
+    background-color: #7ECAEB;
+    margin-top: 62px;
+}
+.colorblue {
+    color: #2AA7FF;
+}
+.sliderblock__inner { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 55px;
+}
+.sliderblock__title {
+    color: #fff;
+    display: flex;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 152%;
+    max-width: 582px;
+    margin-right: 30px;
+}
+.sliderblock__slider {
+    width: 75vh;
+}
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    margin-right: 45px;
+}
+.item:last-child {
+    margin-right: 0;
+}

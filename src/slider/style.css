@@ -1,0 +1,26 @@
+.main-continer {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.window {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.all-pages-continer {
+    height: 100%;
+    display: flex;
+    transition: translate;
+    transition-property: transform;
+    transition-duration: .3s;
+    transition-timing-function: ease-in-out;
+}
+
+.arrow {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}

@@ -5,6 +5,7 @@ import "./styles/fonts.css";
 import Header from './components/header/Header';
 import Whyblock from './components/whyblock/Whyblock';
 import Transport from './components/transport/Transport';
+import SliderBlock from './components/sliderblock/sliderblock';
 
 
 
@@ -15,6 +16,7 @@ function App() {
       <main className="main">
         <Whyblock />
         <Transport />
+        <SliderBlock />
       </main>
     </div>
   );
