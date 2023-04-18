@@ -1,6 +1,5 @@
 .sliderblock {
     background-color: #7ECAEB;
-    margin-top: 62px;
 }
 .colorblue {
     color: #2AA7FF;
@@ -9,7 +8,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 55px;
+    padding-top: 50px;
 }
 .sliderblock__title {
     color: #fff;
