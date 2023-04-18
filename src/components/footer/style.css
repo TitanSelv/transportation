@@ -1,0 +1,37 @@
+.footer {
+  background-color: #7ECAEB;
+  color: white;
+  position: relative;
+  height: 239px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 156%;
+}
+
+.about__company {
+  width: 468px;
+  height: 70px;
+  margin-top: 84px;
+  margin-left: 114px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts {
+  margin-top: 54px;
+  margin-right: 154px;
+}
+
+.contact {
+  align-items: center;
+}
+.icons {
+  width: 24px;
+  height: 24px;
+  margin-right: 15px;
+  margin-top: 6px;
+}
