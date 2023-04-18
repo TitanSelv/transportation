@@ -1,0 +1,16 @@
+html, body {
+    font-family: inter, sans-serif;
+}
+
+.wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+.continer {
+    max-width: 1560px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/* ---------------------------------------- */

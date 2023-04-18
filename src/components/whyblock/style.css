@@ -1,0 +1,191 @@
+.main__why {
+    background-color: #7ECAEB;
+}
+
+.why__inner {
+    display: flex;
+    align-items: center;
+}
+
+.why__title {
+    margin-left: 70px;
+    margin-right: 30px;
+}
+
+.why__text {
+    width: 221px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 135%;
+    color: #fff;
+    margin-bottom: 28px;
+}
+
+.why__we {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.why__we-item {
+    position: relative;
+    margin-right: 75px;
+    margin-top: 99px;
+    border-radius: 10px;
+}
+
+.file {
+    position: relative
+}
+
+.file::before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 461px;
+    height: 239px;
+    background: url("./../../img/mini/Vector.svg");
+    top: -25px;
+    left: 0;
+}
+
+.file::after {
+    content: " ";
+    display: inline-block;
+    width: 76px;
+    height: 79px;
+    background-image: url("./../../img/mini/file.png");
+    background-size: 100%;
+    margin-right: 10px;
+}
+
+.file::after {
+    position: relative;
+    top: -292px;
+    left: 67px;
+}
+
+.shield {
+    position: relative
+}
+
+.shield::before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 461px;
+    height: 239px;
+    background: url("./../../img/mini/Vector.svg");
+    top: -25px;
+    left: 0;
+}
+
+.shield::after {
+    content: " ";
+    display: inline-block;
+    width: 83px;
+    height: 79px;
+    background-image: url("./../../img/mini/shield.png");
+    background-size: 100%;
+    margin-right: 10px;
+}
+
+.shield::after {
+    position: relative;
+    top: -292px;
+    left: 62px;
+}
+
+.service {
+    position: relative
+}
+
+.service::before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 461px;
+    height: 239px;
+    background: url("./../../img/mini/Vector.svg");
+    top: -25px;
+    left: 0;
+}
+
+.service::after {
+    content: " ";
+    display: inline-block;
+    width: 64px;
+    height: 70px;
+    background-image: url("./../../img/mini/service.png");
+    background-size: 100%;
+    margin-right: 10px;
+}
+
+.service::after {
+    position: relative;
+    top: -289px;
+    left: 65px;
+}
+
+.prof {
+    position: relative
+}
+
+.prof::before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 461px;
+    height: 239px;
+    background: url("./../../img/mini/Vector.svg");
+    top: -25px;
+    left: 0;
+}
+
+.prof::after {
+    content: " ";
+    display: inline-block;
+    width: 76px;
+    height: 62px;
+    background-image: url("./../../img/mini/professional-services.png");
+    background-size: 100%;
+    margin-right: 10px;
+}
+
+.prof::after {
+    position: relative;
+    top: -292px;
+    left: 67px;
+}
+
+.why__we-item:last-child {
+    margin-top: 0;
+    margin-right: 0;
+}
+
+.why__we-item:nth-child(2) {
+    margin-right: 0;
+}
+
+.why__we-item:nth-child(3) {
+    margin-top: 0;
+}
+
+.why__content-title {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 152%;
+}
+
+.why__content-text {
+    color: #FFFFFF;
+    width: 414px;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 152%;
+}
+
+.why__we-content {
+    padding: 23px 13px 45px 31px;
+}

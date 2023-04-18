@@ -1,0 +1,59 @@
+.transport {
+    position: relative;
+}
+
+.transport::before {
+    content: "";
+    top: 250px;
+    left: 0;
+    position: absolute;
+    background: url("./../../img/decor/Ellipse.svg");
+    width: 600px;
+    height: 420px;
+    z-index: 1;
+}
+
+.transport__inner {
+
+    z-index: 500;
+}
+
+.transport__title {
+    margin-top: 53px;
+}
+
+.transport__text {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 135%;
+    text-align: center;
+    color: #2AA7FF;
+}
+
+.transport__img {
+    margin-top: 50px;
+    display: flex;
+    align-items: end;
+    margin-bottom: 70px;
+}
+
+.transport__img img {
+
+    z-index: 2;
+}
+.transport__class {
+    display: flex;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 152%;
+    justify-content: center;
+}
+
+.transport__class span {
+    margin-right: 140px;
+    z-index: 2;
+}
+
+.transport__class span:last-child {
+    margin-right: 0;
+}
