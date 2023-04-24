@@ -1,23 +1,27 @@
 import { Children, cloneElement, useEffect, useState } from "react"
 import "./style.css"
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa"
-const PAGE_WIDTH = 450
+const PAGE_WIDTH = 420
 export const Slider = ({ children }) => {
     const [offset, setOffset] = useState([])
     const handleLeftArrowClick = () => {
         console.log("handleLeftArrowClick")
         setOffset((currentOffset) => {
             const newOffset = currentOffset + PAGE_WIDTH
-            return Math.min(newOffset, 0)
+            if (newOffset > 0 ) {
+                return -PAGE_WIDTH * (children.length - 1)
+            } return Math.min(newOffset, 0)
         })
     }
     const handleRightArrowClick = () => {
         console.log("handleRightArrowClick")
         setOffset((currentOffset) => {
             const newOffset = currentOffset - PAGE_WIDTH
+            const minOffset = 0
             const maxOffset = -PAGE_WIDTH * (children.length - 1)
-            console.log(newOffset)
-            return Math.max(newOffset, maxOffset)
+            if (newOffset < maxOffset) {
+                return minOffset
+            } return Math.max(newOffset, maxOffset)
         })
     }
     return (
