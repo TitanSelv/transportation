@@ -1,0 +1,55 @@
+.contacts {
+  position: relative;
+  height: 525px;
+  width: 100%;
+}
+
+.cantact_2 {
+  display: flex;
+  flex-direction: column;  
+  text-align: center;
+  justify-content: center;
+}
+
+
+.contacts__title {
+  text-align: center;
+  margin-top: 53px;
+}
+.contacts__text {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 135%;
+  text-align: center;
+  color: #2AA7FF;
+}
+
+.phone_email {
+  display: flex;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 152%;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.social_networks_text {
+  text-align: center;
+  width: 100%;
+}
+
+.social_networks_text {
+  color: black;
+  width: 414px;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 152%;
+  text-align: center;
+  width: 100%;
+}
+
+.icons {
+  width: 100%;
+  align-items: center;
+}
