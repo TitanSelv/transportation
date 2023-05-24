@@ -1,6 +1,6 @@
 .header__top {
-    margin-top: 22px;
-    margin-bottom: 13px;
+    padding-top: 13px;
+    padding-bottom: 13px;
 }
 
 .header__top-inner {
@@ -8,7 +8,9 @@
     justify-content: space-between;
     align-items: center;
 }
-
+.header__logo {
+    margin-right: 30px;
+}
 .header__nav {
     margin-left: auto;
     margin-right: 49px;
@@ -111,8 +113,8 @@
 .header__title {
     display: flex;
     margin-top: 150px;
-    width: 671px;
-    height: 344px;
+    max-width: 671px;
+    max-height: 344px;
     font-weight: 800;
     font-size: 64px;
     line-height: 135%;
@@ -153,4 +155,89 @@
 
 .button:hover {
     transform: scale(1.05);
+}
+.logo_mibile {
+    display: none;
+}
+/* =============================================== */
+
+.mobile_btn {
+    display: none;
+}
+@media (max-width: 1200px) {
+    .mobile_btn {
+        border-radius: 50%;
+        box-shadow: 0 1px 8px #a1a1a1;
+        display: block;
+        position: fixed;
+        right: 25px;
+        top: 13px;
+        cursor: pointer;
+        z-index: 10;
+    }
+    
+    .header__top-inner {
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: fixed;
+        right: -100%;
+        top: 0;
+        bottom: 0;
+        width: 40%;
+        height: 100vh;
+        background-color: #f8f8f8;
+        z-index: 10;
+        transition: right 1s;
+    }
+    .active {
+        right: 0;
+    }
+    .header__nav {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .header__phone-nav {
+        display: none;
+    }
+    .header__phone-link {
+        margin-left: 0;
+    }
+    .header__nav-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .header__nav-item {
+        margin-right: 0;
+        font-size: 30px;
+    }
+    .header__logo {
+        margin-right: 0;
+    }
+    .logo_mibile {
+        display: block;
+    }
+}
+@media (max-width: 700px) { 
+    .header__title {
+        font-size: 50px;
+        max-width: 200px;
+    }
+    .header__top-inner {
+        width: 60%;
+    }
+}
+@media (max-width: 550px) {
+    .header__title {
+        max-width: 50px;
+        font-size: 35px;
+    }
+    .header__top-inner {
+        width: 70%;
+    }
 }

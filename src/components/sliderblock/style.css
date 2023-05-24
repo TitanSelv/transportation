@@ -32,3 +32,37 @@
 .item:last-child {
     margin-right: 0;
 }
+@media (max-width: 1030px) {
+    .sliderblock__inner {
+        display: flex;
+        flex-direction: column;
+    }
+    .sliderblock__title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .sliderblock__slider {
+        padding-bottom: 20px;
+    }
+    .sliderblock__slider {
+        width: 100vh;
+    }
+}
+@media (max-width: 955px) {
+    .sliderblock__slider {
+        width: 70vh;
+    }
+}
+@media (max-width: 680px) {
+    .sliderblock__slider {
+        width: 50vh;
+    }
+}
+@media (max-width: 475px) {
+    .sliderblock__slider {
+        width: 40vh;
+    }
+}

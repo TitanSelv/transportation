@@ -26,7 +26,7 @@ export const Slider = ({ children }) => {
     }
     return (
         <div className="main-continer">
-            <FaChevronLeft className="arrow" onClick={handleLeftArrowClick} />
+            <FaChevronLeft style={{opacity: `0.5`}} className="arrow" onClick={handleLeftArrowClick} />
             <div className="window">
                 <div className="all-pages-continer" style={{
                     transform: `translateX(${offset}px)`,
@@ -35,7 +35,7 @@ export const Slider = ({ children }) => {
                     {children}
                 </div>
             </div>
-            <FaChevronRight className="arrow" onClick={handleRightArrowClick} />
+            <FaChevronRight style={{opacity: `0.5`}} className="arrow" onClick={handleRightArrowClick} />
         </div>
     )
 }

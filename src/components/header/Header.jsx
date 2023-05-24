@@ -2,14 +2,20 @@ import "./style.css"
 import logo from "./../../img/logo/логотип.svg";
 import telegram from "./../../img/mini/telegram.png";
 import whatsapp from "./../../img/mini/whatsapp.png";
+import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import {useState} from "react";
 
 const Header = () => {
+    const [nav, setNav] = useState(false);
     return (
         <div className="wrapper">
             <header className="header">
                 <div className="header__top">
                     <div className="continer">
-                        <div className="header__top-inner">
+                        <a href="#" className="header__logo logo_mibile">
+                            <img src={logo} alt="Logo" />
+                        </a>
+                        <div className={ nav ? "header__top-inner active" : "header__top-inner"}>
                             <a href="#" className="header__logo logo">
                                 <img src={logo} alt="Logo" />
                             </a>
@@ -42,6 +48,10 @@ const Header = () => {
                                     <img src={whatsapp} alt="whatsapp" />
                                 </a>
                             </div>
+
+                        </div>
+                        <div onClick={() => setNav(!nav)} className="mobile_btn">
+                            {nav ? <AiOutlineClose size={30} /> : <AiOutlineMenu size={30} />}
                         </div>
                     </div>
                 </div>

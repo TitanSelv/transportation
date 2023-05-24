@@ -47,15 +47,43 @@
     font-weight: 600;
     font-size: 30px;
     line-height: 152%;
-
     justify-content: center;
 }
 
-.transport__class span {
+.transport__class li {
     margin-right: 140px;
     z-index: 2;
 }
 
 .transport__class span:last-child {
     margin-right: 0;
+}
+
+@media (max-width: 1640px) {
+    .transport__img {
+        display: flex;
+        justify-content: center;
+    }
+    .transport__inner {
+        display: flex;
+        flex-direction: column;
+    }
+    .image3 {
+        display: none;
+    }
+}
+@media (max-width: 1405px) {
+    .transport__class li {
+        margin-right: 40px;
+    }
+}
+@media (max-width: 1233px) {
+    .image1 {
+        display: none;
+    }
+}
+@media (max-width: 980px) {
+    .transport {
+        display: none;
+    }
 }

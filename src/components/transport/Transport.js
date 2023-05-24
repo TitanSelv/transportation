@@ -16,12 +16,12 @@ const Transport = () => {
                         <img className="image2" src={mersbus} alt="mers" />
                         <img className="image3" src={hundaibus} alt="hundai" />
                     </div>
-                    <div className="transport__class">
-                        <span>VIP транспорт</span>
-                        <span>Минивены</span>
-                        <span>Микроавтобусы</span>
-                        <span>Автобусы</span>
-                    </div>
+                    <ul className="transport__class">
+                        <li>VIP транспорт</li>
+                        <li>Минивены</li>
+                        <li>Микроавтобусы</li>
+                        <li>Автобусы</li>
+                    </ul>
                 </div>
             </div>
         </section>

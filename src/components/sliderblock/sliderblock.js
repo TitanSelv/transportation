@@ -16,8 +16,8 @@ const SliderBlock = () => {
                     </div>
                     <div className="sliderblock__slider">
                         <Slider>
-                            <img className="item item1" src={one} alt="" />
-                            <img className="item item2" src={two} alt="" />
+                            <img className="item item1" src={two} alt="" />
+                            <img className="item item2" src={one} alt="" />
                             <img className="item item3" src={three} alt="" />
                             <img className="item item4" src={four} alt="" />
                             <img className="item item5" src={five} alt="" />
