@@ -7,21 +7,23 @@
   line-height: 156%;
 }
 
+.footer_border {
+  margin-left: 110px;
+  margin-right: 110px;
+}
 .container {
   display: flex;
-  justify-content: space-around;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .about__company {
-  margin-top: 84px;
+  max-width: 513px;
 }
 
 .footer_contacts {
   margin-top: 45px;
-  border: solid;
-}
-
-.contact {
+  margin-bottom: 45px;
 }
 
 .icons {
@@ -30,3 +32,4 @@
   margin-right: 15px;
   margin-top: 6px;
 }
+
