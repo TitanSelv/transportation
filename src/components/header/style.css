@@ -133,6 +133,7 @@
 
 .button {
     display: inline-block;
+    text-align: center;
     width: 220px;
     height: 51px;
     font-weight: 600;
@@ -166,14 +167,14 @@
 }
 @media (max-width: 1200px) {
     .mobile_btn {
-        border-radius: 50%;
-        box-shadow: 0 1px 8px #a1a1a1;
+        border-radius: 40%;
         display: block;
         position: fixed;
         right: 25px;
         top: 13px;
         cursor: pointer;
         z-index: 10;
+        color: grey;
     }
     
     .header__top-inner {
