@@ -1,11 +1,10 @@
-import "./style.css"
-import telegram from "./../../img/mini/telegram.png";
-import whatsapp from "./../../img/mini/whatsapp.png";
+import "./style_contact.css"
+import telegram_contact from "./../../img/mini/telegram.png";
+import whatsapp_contact from "./../../img/mini/whatsapp.png";
 
 const Contacts = () => {
   return (
     <section className="contacts">
-      <div className="cantact_2">
         <div className="contacts__title">
           <h1 className="contacts__text">Наши контакты</h1>
         </div>
@@ -14,17 +13,16 @@ const Contacts = () => {
           <span>safetoure@gmail.com</span>
         </div>
         <div className="social_networks">
-          <span className="social_networks_text">Мы в социальных сетях:</span>
-          <section className="icons">
-            <a href="#" className="header__phone-item telegram">
-              <img src={telegram} alt="telegram" />
+          <p className="social_networks_text">Мы в социальных сетях:</p>
+          <div className="icons_contact">
+            <a href="" className="telegram">
+              <img src={telegram_contact} className="telegram_button" alt="telegram" />
             </a>
-            <a href="#" className="header__phone-item whatsapp">
-              <img src={whatsapp} alt="whatsapp" />
+            <a href="" className="whatsapp">
+              <img src={whatsapp_contact} className="whatsapp_button" alt="whatsapp" />
             </a>
-          </section>
+          </div>
         </div>
-      </div>
     </section>
   );
 }

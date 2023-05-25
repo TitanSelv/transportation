@@ -1,34 +1,29 @@
 .footer {
   background-color: #7ECAEB;
   color: white;
-  position: relative;
-  height: 239px;
   font-style: normal;
   font-weight: 600;
   font-size: 22px;
   line-height: 156%;
 }
 
-.about__company {
-  width: 468px;
-  height: 70px;
-  margin-top: 84px;
-  margin-left: 114px;
-}
-
 .container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
-.contacts {
-  margin-top: 54px;
-  margin-right: 154px;
+.about__company {
+  margin-top: 84px;
+}
+
+.footer_contacts {
+  margin-top: 45px;
+  border: solid;
 }
 
 .contact {
-  align-items: center;
 }
+
 .icons {
   width: 24px;
   height: 24px;

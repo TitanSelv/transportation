@@ -6,33 +6,31 @@ import inst from "./../../img/contacts/Instagram.svg"
 
 const Footer = () => {
   return (
-      <section className="footer">
-          <div>
-              <div class="container">
-                  <div class="about__company">
-                    <span>SAFETOUR  - компания по перевозкам пасажиров в Краснодарском крае.</span>
-                  </div>
-                  <div class="contacts">
-                    <div className="contact">
-                      <img src={whatsapp} className="icons"/>
-                      <a>+7 (900) 000-00-00</a>
-                    </div>
-                    <div className="contact">
-                      <img className="icons" src={mail}/>
-                      <a>safetoure@gmail.com</a>
-                    </div>
-                    <div className="contact">
-                      <img className="icons" src={telegram}/>
-                      <a>@saferourekrd</a>
-                    </div>
-                    <div className="contact">
-                      <img className="icons" src={inst}/>
-                      <a>@zakazavto_krd</a>
-                    </div>
-                  </div>
-              </div>
+      <div className="footer">
+        <div class="container">
+          <div class="about__company">
+            <span>SAFETOUR  - компания по перевозкам пасажиров в Краснодарском крае.</span>
           </div>
-      </section>
+          <div class="footer_contacts">
+            <div className="contact">
+              <img src={whatsapp} className="icons"/>
+              <a>+7 (900) 000-00-00</a>
+            </div>
+            <div className="contact">
+              <img className="icons" src={mail}/>
+              <a>safetoure@gmail.com</a>
+            </div>
+            <div className="contact">
+              <img className="icons" src={telegram}/>
+              <a>@saferourekrd</a>
+            </div>
+            <div className="contact">
+              <img className="icons" src={inst}/>
+              <a>@zakazavto_krd</a>
+            </div>
+          </div>
+        </div>
+      </div>
   );
 }
 
