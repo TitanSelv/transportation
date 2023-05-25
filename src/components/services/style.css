@@ -37,7 +37,7 @@
 
 .services__content-title {
   font-weight: 500;
-  font-size: 25px;
+  font-size: 23px;
   line-height: 135%;
   width: 100%;
   text-align: center
@@ -55,4 +55,14 @@
 .button_section {
   text-align: center;
   margin-bottom: 46px;
+}
+@media (max-width: 1175px) {
+  .services-item {
+    margin-right: 20px;
+  }
+}
+@media (max-width: 810px) {
+  .services__set {
+    justify-content: center;
+  }
 }
