@@ -10,7 +10,7 @@ import Contacts from './components/contacts/contacts';
 import Services from './components/services/Services';
 
 import Footer from './components/footer/Footer';
-
+import Modal from "./Modal/Modal";
 
 function App() {
   return (

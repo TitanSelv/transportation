@@ -3,10 +3,18 @@ import logo from "./../../img/logo/логотип.svg";
 import telegram from "./../../img/mini/telegram.png";
 import whatsapp from "./../../img/mini/whatsapp.png";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
-import {useState} from "react";
+import { useState } from "react";
+import Modal from "../../Modal/Modal";
 
 const Header = () => {
     const [nav, setNav] = useState(false);
+    const [modalActive, setModalActive] = useState(false)
+
+    const [step, setStep] = useState('');
+    const [name, setName] = useState('');
+    const [phone, setPhone] = useState('');
+    const [email, setEmail] = useState('');
+    const [message, setMessage] = useState('');
     return (
         <div className="wrapper">
             <header className="header">
@@ -15,7 +23,7 @@ const Header = () => {
                         <a href="#" className="header__logo logo_mibile">
                             <img src={logo} alt="Logo" />
                         </a>
-                        <div className={ nav ? "header__top-inner active" : "header__top-inner"}>
+                        <div className={nav ? "header__top-inner active" : "header__top-inner"}>
                             <a href="#" className="header__logo logo">
                                 <img src={logo} alt="Logo" />
                             </a>
@@ -64,8 +72,25 @@ const Header = () => {
                                 </h1>
                             </div>
                             <div className="button__box">
-                                <a href="#" className="header__btn--box button">Оформить заявку</a>
+                                <a href="#" className="header__btn--box button" onClick={() => setModalActive(true)}>Оформить заявку</a>
                             </div>
+                            <Modal active={modalActive} setActive={setModalActive}>
+                                <form>
+                                    <p>Имя</p>
+                                    <p>{name}</p>
+                                    <input type="text" value={name} onChange={event => setName(event.target.value)} />
+                                    <p>Телефон</p>
+                                    <p>{phone}</p>
+                                    <input type="text" value={phone} onChange={event => setPhone(event.target.value)} />
+                                    <p>Почта</p>
+                                    <p>{email}</p>
+                                    <input type="text" value={email} onChange={event => setEmail(event.target.value)} />
+                                    <p>Сообщение</p>
+                                    <p>{message}</p>
+                                    <input type="text" value={message} onChange={event => setMessage(event.target.value)} />
+                                    <input href="#" className="button" type="button" value="Заказать онлайн" />
+                                </form>
+                            </Modal>
                         </div>
                     </div>
                 </div>
