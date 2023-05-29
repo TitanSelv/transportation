@@ -22,7 +22,7 @@ const Header = () => {
                             <nav className="header__nav">
                                 <ul className="header__nav-list">
                                     <li className="header__nav-item">
-                                        <a className="header__nav-link" href="#">Главная</a>
+                                        <a className="header__nav-link" href="#">Наши услуги</a>
                                     </li>
                                     <li className="header__nav-item">
                                         <a className="header__nav-link" href="#">О нас</a>
@@ -37,7 +37,7 @@ const Header = () => {
                             </nav>
                             <div className="header__phone-nav">
                                 <span>
-                                    <a href="tel:+79000000000">+7 900 000 99 99</a>
+                                    <a href="tel:+79000000000">+7 900 000 00 00</a>
                                 </span>
                             </div>
                             <div className="header__phone-link">
@@ -65,7 +65,6 @@ const Header = () => {
                             </div>
                             <div className="button__box">
                                 <a href="#" className="header__btn--box button">Оформить заявку</a>
-                                <a href="#" className="header__btn--box button empty">Узнать детали</a>
                             </div>
                         </div>
                     </div>

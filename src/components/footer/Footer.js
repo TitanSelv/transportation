@@ -14,20 +14,28 @@ const Footer = () => {
           </div>
           <div class="footer_contacts">
             <div className="contact">
-              <img src={whatsapp} className="icons"/>
-              <a href="#">+7 (900) 000-00-00</a>
+              <a href="#">
+                <img src={whatsapp} className="icons"/>
+                <div className="icons_text">+7 (900) 000-00-00</div>
+              </a>
             </div>
             <div className="contact">
+              <a href="#">
               <img className="icons" src={mail}/>
-              <a href="#">safetoure@gmail.com</a>
+              <div className="icons_text">safetoure@gmail.com</div>
+              </a>
             </div>
             <div className="contact">
-              <img className="icons" src={telegram}/>
-              <a href="#">@saferourekrd</a>
+              <a href="#">
+                <img className="icons" src={telegram}/>
+                <div className="icons_text">@saferourekrd</div>
+              </a>
             </div>
             <div className="contact">
-              <img className="icons" src={inst}/>
-              <a href="#">@zakazavto_krd</a>
+              <a href="#">
+                <img className="icons" src={inst}/>
+                <div className="icons_text">@zakazavto_krd</div>
+              </a>
             </div>
           </div>
         </div>

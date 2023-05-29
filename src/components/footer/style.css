@@ -33,3 +33,39 @@
   margin-top: 6px;
 }
 
+.icons_text {
+  display: inline;
+}
+
+@media (max-width: 1000px) {
+  .footer {
+    font-size: 17px;
+  }
+
+  .footer_border {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .icons_text {
+    display: inline;
+  }
+  
+}
+
+@media (max-width: 900px) {
+  .about__company {
+    width: 300px;
+  }
+
+  .icons_text {
+    display: inline;
+  }
+}
+
+@media (max-width: 900px) {
+  .icons_text {
+    display: none;
+  }
+}
+
+
