@@ -62,3 +62,16 @@
 .email:hover {
   color: rgb(122, 122, 122);
 }
+
+@media (max-width: 1000px) {
+  .contacts__text {
+    font-size: 35px;
+
+  }
+  .phone_email {
+    font-size: 25px;
+  }
+  .social_networks_text {
+    font-size: 20px;
+  }
+}

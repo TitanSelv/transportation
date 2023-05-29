@@ -9,7 +9,7 @@ const Contacts = () => {
           <h1 className="contacts__text">Наши контакты</h1>
         </div>
         <div className="phone_email">
-          <a href="#" className="phone">+7 900 000 00 00</a>
+          <a href="tel:+79000000000" className="phone">+7 900 000 00 00</a>
           <a href="#" className="email">safetoure@gmail.com</a>
         </div>
         <div className="social_networks">

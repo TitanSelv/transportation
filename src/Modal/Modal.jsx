@@ -43,7 +43,9 @@ const Modal = ({ active, setActive, children }) => {
                     value={toSend.message}
                     onChange={(e) => setToSend({ ...toSend, message: e.target.value })}
                 />
-                <button className='button_form' type="submit">Send</button>
+                <button className='button_form' type="submit">Отправить</button>
+                <div className="agreement">Ваши данные защищены и не попадут третьим лицам. Нажимая на кнопку 
+                    вы соглашаетесь на обработку <span className="per_data">персональных данных</span></div>
             </form>
         )
     }

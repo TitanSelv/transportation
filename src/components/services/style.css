@@ -61,6 +61,12 @@
     margin-right: 20px;
   }
 }
+
+@media (max-width: 1000px) {
+  .services__text {
+    font-size: 35px;
+  }
+}
 @media (max-width: 810px) {
   .services__set {
     justify-content: center;

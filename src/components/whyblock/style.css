@@ -32,6 +32,7 @@
     margin-right: 75px;
     margin-top: 99px;
     border-radius: 10px;
+    width: 461px;
 }
 
 .file {
@@ -207,7 +208,6 @@
         margin-top: 20px;
         margin-right: auto;
         margin-left: auto;
-        width: 600px;
         font-weight: 600;
         font-size: 40px;
         line-height: 135%;
@@ -225,6 +225,13 @@
         font-size: 30px;
     }
 }
+
+@media (max-width: 480px) {
+    .why__content-text {
+        font-size: 20px;
+    }
+}
+
 @media (max-width: 378px) {
     .why__text {
         font-size: 25px;
