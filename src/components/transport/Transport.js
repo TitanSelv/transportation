@@ -6,6 +6,7 @@ import hundaibus from "./../../img/bus/3.png";
 const Transport = () => {
     return (
         <section className="transport">
+            <p><a name="transort_anchor"></a></p>
             <div className="continer">
                 <div className="transport__inner">
                     <div className="transport__title">

@@ -32,7 +32,6 @@
     margin-right: 75px;
     margin-top: 99px;
     border-radius: 10px;
-    width: 461px;
 }
 
 .file {
@@ -226,11 +225,11 @@
     }
 }
 
-@media (max-width: 480px) {
+/*@media (max-width: 480px) {
     .why__content-text {
         font-size: 20px;
     }
-}
+}*/
 
 @media (max-width: 378px) {
     .why__text {

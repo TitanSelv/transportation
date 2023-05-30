@@ -14,6 +14,7 @@ import wedding from "./../../img/services/wedding.webp";
 const Services = () => {
   return (
     <section className="main__services">
+      <p><a name="servises_anchor"></a></p>
       <div className="container">
         <div className="services__inner">
           <div className="services__title">

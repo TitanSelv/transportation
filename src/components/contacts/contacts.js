@@ -5,6 +5,7 @@ import whatsapp_contact from "./../../img/mini/whatsapp.png";
 const Contacts = () => {
   return (
     <section className="contacts">
+        <p><a name="contacts_anchor"></a></p>
         <div className="contacts__title">
           <h1 className="contacts__text">Наши контакты</h1>
         </div>

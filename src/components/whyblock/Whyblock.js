@@ -3,6 +3,7 @@ import "./style.css"
 const Whyblock = () => {
     return (
         <section className="main__why">
+            <p><a name="about_us_anchor"></a></p>
             <div className="continer">
                 <div className="why__inner">
                     <div className="why__title">

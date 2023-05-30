@@ -30,16 +30,16 @@ const Header = () => {
                             <nav className="header__nav">
                                 <ul className="header__nav-list">
                                     <li className="header__nav-item">
-                                        <a className="header__nav-link" href="#">Наши услуги</a>
+                                        <a className="header__nav-link" href="#servises_anchor">Наши услуги</a>
                                     </li>
                                     <li className="header__nav-item">
-                                        <a className="header__nav-link" href="#">О нас</a>
+                                        <a className="header__nav-link" href="#about_us_anchor">О нас</a>
                                     </li>
                                     <li className="header__nav-item">
-                                        <a className="header__nav-link" href="#">Наш транспорт</a>
+                                        <a className="header__nav-link" href="#transort_anchor">Наш транспорт</a>
                                     </li>
                                     <li className="header__nav-item">
-                                        <a className="header__nav-link" href="#">Контакты</a>
+                                        <a className="header__nav-link" href="#contacts_anchor">Контакты</a>
                                     </li>
                                 </ul>
                             </nav>
