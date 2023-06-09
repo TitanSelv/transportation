@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Веб-сайт для компании, занимающейся перевозками пассажиров
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
